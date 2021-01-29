@@ -16,18 +16,17 @@ This project requires **Python 3.8** and the following Python libraries installe
 
 ### Index
 
-1. `dags`
+- `dags`
   - `pipeline.py`: Defines main DAG and performs all tasks in specified order
   - `sql.py`: Contains SQL create table and insert statements
   - `create_tables.sql`: contains SQL create table statements 
-2. `plugins`
-  - `helpers`
-    - `sql_queries.py`: Contains SQL queries for the pipeline
-  - `operators`
-    - `data_quality.py`: Defines `DataQualityOperator` to run data quality checks on all tables passed as parameter
-    - `load_dimensions.py`: Defines `LoadDimensionOperator` to load a dimension table from staging tables
-    - `load_fact.py`: Defines `LoadFactOperator` to load fact table from staging tables
-    - `stage_redshift.py`: Defines `StageToRedshiftOperator` to copy JSON data from S3 to staging tables in Redshift
+- `plugins/helpers`
+  - `sql_queries.py`: Contains SQL queries for the pipeline
+- `plugins/operators`
+  - `data_quality.py`: Defines `DataQualityOperator` to run data quality checks on all tables passed as parameter
+  - `load_dimensions.py`: Defines `LoadDimensionOperator` to load a dimension table from staging tables
+  - `load_fact.py`: Defines `LoadFactOperator` to load fact table from staging tables
+  - `stage_redshift.py`: Defines `StageToRedshiftOperator` to copy JSON data from S3 to staging tables in Redshift
 
 ### Data
 
