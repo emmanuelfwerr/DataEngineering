@@ -1,7 +1,7 @@
 # Building a Data Lake - using Spark and AWS
 
 ## Project Overview
-A music streaming startup, Sparkify, has grown their user base and song database and want to move their processes and data onto the cloud. Their data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app. In this project, we are tasked with building an ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for their analytics team to continue finding insights in what songs their users are listening to.
+A music streaming startup, Sparkify, has grown their user base and song database even more and want to move their data warehouse to a data lake. Their data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app. In this project, we are tasked with building an ETL pipeline that extracts their data from S3, processes them using Spark, and loads the data back into S3 as a set of dimensional tables. This will allow their analytics team to continue finding insights in what songs their users are listening to.
 
 This project is designed to...
 
@@ -9,8 +9,9 @@ This project is designed to...
 
 This project requires **Python 3.8** and the following Python libraries installed:
 
-- [psycopg2](https://pypi.org/project/psycopg2/)
+- [pyspark](https://spark.apache.org/docs/latest/api/python/index.html)
 - [configparser](https://pypi.org/project/configparser/)
+- [os](https://docs.python.org/3/library/os.html)
 
 ### Index
 
