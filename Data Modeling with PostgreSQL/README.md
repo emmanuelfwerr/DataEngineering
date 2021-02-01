@@ -10,14 +10,13 @@ They'd like a data engineer to create a Postgres database with tables designed t
 This project requires **Python 3.8** and the following Python libraries installed:
 
 - [psycopg2](https://pypi.org/project/psycopg2/)
-- [configparser](https://pypi.org/project/configparser/)
+- [pandas](https://pandas.pydata.org/pandas-docs/stable/)
 
 ### Index
 
-1. `etl.py`: Python script that loads data from S3 into staging tables on Redshift and then processes that data into analytics tables on Redshift.
+1. `etl.py`: Python script that loads data from JSON then creates and populates all tables.
 2. `sql_queries.py`: Python file where all SQL statements are defined for dropping, creating, and inserting into, tables.
 3. `create_tables.py`: Pyhton script that creates the fact and dimension tables in Redshift.
-4. `dwh.cfg`: Redshift cluster, IAM, and S3 information (kept private)
 
 ### Data
 
@@ -41,9 +40,6 @@ year and month.
 
 ### Instructions to Run
 
-* Update the `dwh.cfg` file
-    * Amazon Redshift cluster credentials
-    * IAM role
 * Run `python create_tables.py`. 
     * This will create the database and all the required tables.
 * Run `python etl.py`. 
