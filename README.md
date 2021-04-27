@@ -3,10 +3,9 @@ This repository showcases projects completed as part of [Udacity's Data Engineer
 
 ### Index
 1. [Data Modeling with PostgreSQL](https://github.com/emmanuelfwerr/DataEngineering/tree/master/Data%20Modeling%20with%20PostgreSQL)
-2. [Data Modeling with Apache Cassandra](https://github.com/emmanuelfwerr/DataEngineering/tree/master/Data%20Modeling%20with%20Apache%20Cassandra)
-3. [Build a Cloud Data Warehouse with AWS and Redshift](https://github.com/emmanuelfwerr/DataEngineering/tree/master/Build%20a%20Cloud%20Data%20Warehouse)
-4. [Build a Data Lake with Spark](https://github.com/emmanuelfwerr/DataEngineering/tree/master/Build%20a%20Data%20Lake)
-5. [Data Pipelines with Apache Airflow](https://github.com/emmanuelfwerr/DataEngineering/tree/master/Data%20Pipelines%20with%20Airflow)
+2. [Build a Cloud Data Warehouse with AWS and Redshift](https://github.com/emmanuelfwerr/DataEngineering/tree/master/Build%20a%20Cloud%20Data%20Warehouse)
+3. [Build a Data Lake with Spark](https://github.com/emmanuelfwerr/DataEngineering/tree/master/Build%20a%20Data%20Lake)
+4. [Data Pipelines with Apache Airflow](https://github.com/emmanuelfwerr/DataEngineering/tree/master/Data%20Pipelines%20with%20Airflow)
    
 Each folder should be accompanied by some form of documentation.
 
